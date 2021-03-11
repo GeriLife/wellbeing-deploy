@@ -2,4 +2,5 @@ wellbeing/
 wellbeing-client/
 # avoid accidentally committing a config file
 *.js
+*.json
 node_modules

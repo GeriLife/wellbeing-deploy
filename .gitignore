@@ -1,2 +1,4 @@
 wellbeing/
 wellbeing-client/
+# avoid accidentally committing a config file
+*.js

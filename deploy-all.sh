@@ -1,0 +1,1 @@
+./node_modules/.bin/concurrently "./deploy-backend.sh" "./deploy-frontend.sh"

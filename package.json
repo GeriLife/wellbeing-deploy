@@ -1,0 +1,13 @@
+{
+  "name": "wellbeing-deploy",
+  "version": "0.0.1",
+  "description": "Deployment script(s) for GeriLife",
+  "main": "index.js",
+  "repository": "git@github.com:GeriLife/wellbeing-deploy.git",
+  "author": "Brylie Christopher Oxley <brylie@amble.fi> <brylie@amble.fi>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "concurrently": "^6.0.0"
+  }
+}

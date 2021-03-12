@@ -38,14 +38,19 @@ module.exports = {
       // If you are using a different version of Meteor,
       // refer to the docs for the correct image to use.
       image: 'abernix/meteord:node-12-base',
-      bind: '127.0.0.1',
     },
 
     // Show progress bar while uploading bundle to server
     // You might need to disable it on CI servers
     enableUploadProgressBar: true
   },
-
+  
+  mongo: {
+    version: "3.4.1",
+    servers: {
+      one: {},
+    },
+  },
 
   // Use the proxy to setup ssl or to route requests to the correct
   // app when there are several apps

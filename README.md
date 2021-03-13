@@ -39,6 +39,14 @@ cp mup.js.example mup.js
 Then, edit the `mup.js` file to add your server IP, username, and password (or desired authentication details).
 
 ## Deploy
+Note: depending on your deployment server configuration, you may need to activate an ssh-agent to authenticate on the remote server using your SSH key. Run the following commands to activate an SSH agent and add your SSH key to the session.
+
+```sh
+eval `ssh-agent`
+```
+```sh
+ssh-add
+```
 
 You can deploy the projects independently or both together with the following commands.
 

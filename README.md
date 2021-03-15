@@ -50,7 +50,13 @@ ssh-add
 
 You can deploy the projects independently or both together with the following commands.
 
-Deploy frontend and backend concurrently.
+When deploying for the first time, use the following
+
+```sh
+bash install-deploy.sh
+``` 
+
+Post that deployment of frontend and backend can be done concurrently.
 
 ```sh
 bash deploy-all.sh

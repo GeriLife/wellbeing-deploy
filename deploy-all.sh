@@ -1,1 +1,4 @@
-./node_modules/.bin/concurrently "./deploy-backend.sh" "./deploy-frontend.sh"
+cd wellbeing/app && meteor npm i && cd ../../
+cd wellbeing-client/frontend && yarn && cd ../../
+
+sh ./deploy-backend.sh

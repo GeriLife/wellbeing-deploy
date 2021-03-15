@@ -7,7 +7,8 @@
   "author": "Brylie Christopher Oxley <brylie@amble.fi> <brylie@amble.fi>",
   "license": "MIT",
   "private": false,
-  "dependencies": {
-    "concurrently": "^6.0.0"
-  }
+  "scripts": {
+    "deploy-frontend": "cd wellbeing-client/frontend && yarn serve"
+  },
+  "dependencies": {}
 }
